@@ -1,0 +1,143 @@
+ <div class="Ear leftEar" >
+      <div class="innerEar leftInner"></div>
+</div>
+<div class="Ear rightEar">
+      <div class="innerEar rightInner"></div>
+</div> 
+<div id="container">
+  <div class="face">
+    <div class="EyeContainer leftEye">
+	    <div class="Eye"></div>    
+    </div>
+    <div class="EyeContainer rightEye">
+	    <div class="Eye"></div>    
+    </div> 
+    <div class="mostCont">
+    	<div class="moust"></div>
+    </div>  
+    <div class="pillar"></div>  
+  </div>
+</div>
+<style>
+  body{
+    margin: 0;
+  }
+  
+  #container {
+    width: 100%;
+    height: 100%;
+    background: #998235;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .face{
+    width: 180px;
+    height: 180px;
+    background: #1A4341;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .EyeContainer{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .leftEye{
+    margin-left: -60px;
+  }
+  
+  .rightEye{
+    margin-left: 60px;
+  }
+  
+  .Eye{
+    width: 20px;
+    height: 20px;
+    background: #0B2429;
+    border-radius: 50%;
+    margin-top: -10px;
+    box-shadow: 0 0 0 10px #998235;
+  }  
+  
+  .Ear{
+    width: 80px;
+    height: 180px;
+    background: #1A4341;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    margin-top: 50%;
+    top: -140px    
+  }
+  
+  .leftEar{
+     left: 50px;  
+  }
+  
+  .rightEar{
+     right: 50px;   
+  }
+  
+  .innerEar{
+    width: 80px;
+    height: 180px;
+    background: #0B2429;
+    border-radius: 50%;
+    
+  }  
+  
+  .leftInner{
+    margin-left: 16px;
+  }
+  
+  .rightInner{
+    margin-left: -16px;
+  }
+  
+  .moust{
+    height: 80px;
+    width: 80px;
+    background: transparent;
+    border: 20px solid #FFFFFF;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .mostCont{
+    width: 120px;
+    height: 80px;
+    margin-top: 120px;
+    overflow: hidden;    
+  }
+  
+  .pillar{
+    height: 120px;
+    width: 40px;
+    background: #0B2429;
+    position: absolute;
+    margin-top: 180px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;    
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
